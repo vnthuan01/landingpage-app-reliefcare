@@ -1,14 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 import styles from "./Navbar.module.css";
 
 const menuItems = [
-  { label: "Giới thiệu", href: "#gioi-thieu" },
-  { label: "Bản đồ SOS", href: "#ban-do-sos" },
-  { label: "Đội cứu trợ", href: "#doi-cuu-tro" },
-  { label: "Tình nguyện viên", href: "#tinh-nguyen-vien" },
-  { label: "Liên hệ", href: "#lien-he" },
+  {label: "Giới thiệu", href: "#gioi-thieu"},
+  {label: "Bản đồ SOS", href: "#ban-do-sos"},
+  {label: "Đội cứu trợ", href: "#doi-cuu-tro"},
+  {label: "Tình nguyện viên", href: "#tinh-nguyen-vien"},
+  {label: "Liên hệ", href: "#lien-he"},
 ];
 
 export default function Navbar() {
@@ -17,7 +17,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("scroll", onScroll, {passive: true});
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -58,7 +58,12 @@ export default function Navbar() {
         </ul>
 
         {/* CTA Button */}
-        <a href="https://drive.google.com/file/d/1IRUa3gxwL_fJxvoX3j--q29urNsRmLtj/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className={styles.cta}>
+        <a
+          href="https://drive.google.com/file/d/1IRUa3gxwL_fJxvoX3j--q29urNsRmLtj/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.cta}
+        >
           <span className={styles.ctaText}>Tải ứng dụng</span>
           <span className={styles.ctaArrow}>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -87,7 +92,9 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`${styles.mobileMenu} ${mobileOpen ? styles.mobileMenuOpen : ""}`}>
+      <div
+        className={`${styles.mobileMenu} ${mobileOpen ? styles.mobileMenuOpen : ""}`}
+      >
         <ul>
           {menuItems.map((item) => (
             <li key={item.href}>
@@ -101,7 +108,13 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="https://drive.google.com/file/d/1IRUa3gxwL_fJxvoX3j--q29urNsRmLtj/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className={styles.mobileCta} onClick={() => setMobileOpen(false)}>
+        <a
+          href="https://drive.google.com/file/d/1PlDqTwwBfCKPryCLTsWClzXpr6c1-Ge5/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.mobileCta}
+          onClick={() => setMobileOpen(false)}
+        >
           Tải ứng dụng
         </a>
       </div>
