@@ -114,7 +114,9 @@ export default function HeroSection() {
       </div>
 
       {/* Floating UI Indicators */}
-      <div className={`${styles.floatingCards} ${loaded ? styles.cardsVisible : ""}`}>
+      <div
+        className={`${styles.floatingCards} ${loaded ? styles.cardsVisible : ""}`}
+      >
         {floatingCards.map((card) => (
           <div
             key={card.id}
@@ -145,22 +147,42 @@ export default function HeroSection() {
       </div>
 
       {/* Hero Content */}
-      <div className={`${styles.content} ${loaded ? styles.contentVisible : ""}`}>
+      <div
+        className={`${styles.content} ${loaded ? styles.contentVisible : ""}`}
+      >
         <h1 className={styles.headline}>
-          <span className={styles.line1}>Nền tảng hỗ trợ cứu trợ thiên tai</span>
-          <span className={styles.line2}>kết nối SOS & cứu hộ theo thời gian thực</span>
+          <span className={styles.line1}>
+            Nền tảng hỗ trợ cứu trợ thiên tai
+          </span>
+          <span className={styles.line2}>
+            kết nối SOS & cứu hộ theo thời gian thực
+          </span>
         </h1>
 
         <p className={styles.subtext}>
-          Theo dõi bão lũ, gửi tín hiệu SOS, kết nối đội cứu hộ và tình nguyện viên trên bản đồ
-          trực tiếp
+          Theo dõi bão lũ, gửi tín hiệu SOS, kết nối đội cứu hộ và tình nguyện
+          viên trên bản đồ trực tiếp
         </p>
 
         <div className={styles.ctaGroup}>
-          <a href="https://drive.google.com/file/d/1IRUa3gxwL_fJxvoX3j--q29urNsRmLtj/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className={styles.primaryCta}>
+          <a
+            href="https://drive.google.com/file/d/1WZvDBvA46vF-KifOP31-uT9tRknRU3IT/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.primaryCta}
+          >
             <span className={styles.ctaLabel}>Tải ứng dụng ngay</span>
             <span className={styles.ctaIconPulse}>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
