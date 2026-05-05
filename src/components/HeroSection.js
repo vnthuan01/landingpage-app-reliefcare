@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {useEffect, useRef, useState} from "react";
 import styles from "./HeroSection.module.css";
 
 /* Floating indicator data */
@@ -10,7 +10,12 @@ const floatingCards = [
     icon: (
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
         <circle cx="9" cy="9" r="8" stroke="#ef4444" strokeWidth="1.5" />
-        <path d="M9 5V10" stroke="#ef4444" strokeWidth="1.5" strokeLinecap="round" />
+        <path
+          d="M9 5V10"
+          stroke="#ef4444"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
         <circle cx="9" cy="13" r="1" fill="#ef4444" />
       </svg>
     ),
@@ -45,7 +50,12 @@ const floatingCards = [
           stroke="#f59e0b"
           strokeWidth="1.5"
         />
-        <path d="M9 7V11" stroke="#f59e0b" strokeWidth="1.5" strokeLinecap="round" />
+        <path
+          d="M9 7V11"
+          stroke="#f59e0b"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
         <circle cx="9" cy="13.5" r="0.75" fill="#f59e0b" />
       </svg>
     ),
@@ -63,7 +73,12 @@ const floatingCards = [
           stroke="#3b82f6"
           strokeWidth="1.5"
         />
-        <path d="M7 16v2M10 16v2M13 16v2" stroke="#3b82f6" strokeWidth="1.5" strokeLinecap="round" />
+        <path
+          d="M7 16v2M10 16v2M13 16v2"
+          stroke="#3b82f6"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
       </svg>
     ),
     label: "Bão đang tiến vào",
@@ -166,7 +181,7 @@ export default function HeroSection() {
 
         <div className={styles.ctaGroup}>
           <a
-            href="https://drive.google.com/file/d/1WZvDBvA46vF-KifOP31-uT9tRknRU3IT/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.primaryCta}
