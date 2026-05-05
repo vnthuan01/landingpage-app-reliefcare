@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="https://drive.google.com/file/d/1WZvDBvA46vF-KifOP31-uT9tRknRU3IT/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.cta}
@@ -109,7 +109,7 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="https://drive.google.com/file/d/1WZvDBvA46vF-KifOP31-uT9tRknRU3IT/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.mobileCta}
@@ -121,4 +121,4 @@ export default function Navbar() {
     </nav>
   );
 }
-``
+``;
