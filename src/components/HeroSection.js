@@ -181,7 +181,7 @@ export default function HeroSection() {
 
         <div className={styles.ctaGroup}>
           <a
-            href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BwkzzHrzjaqlvnFXBlQloL4jVyeoG4IG/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.primaryCta}

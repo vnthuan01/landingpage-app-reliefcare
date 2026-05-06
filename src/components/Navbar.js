@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BwkzzHrzjaqlvnFXBlQloL4jVyeoG4IG/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.cta}
@@ -109,7 +109,7 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="https://drive.google.com/file/d/1t4P6eEMR2TIlMKdkSSEp0gVLZ4NmWgPW/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BwkzzHrzjaqlvnFXBlQloL4jVyeoG4IG/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.mobileCta}
